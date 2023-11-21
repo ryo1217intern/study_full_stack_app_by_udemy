@@ -6,8 +6,12 @@
 2. go の初期化
    `go mod init go-rest-api`
 
-今回は version を udemy 講座と合わせて`version:1.20`にしています 3. go tools のインストール
+今回は version を udemy 講座と合わせて`version:1.20`にしています
+
+3. go tools のインストール
+
 a. goimports
+
 `golang.org/x/tools/cmd/goimports@latest`
 goimports はコード本文内で使用しているライブラリを自動で imports してくれる.
 
