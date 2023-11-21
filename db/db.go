@@ -42,7 +42,7 @@ func NewDB() *gorm.DB {
 }
 
 //データベースのクローズ
-func closeDB(db *gorm.DB) {
+func CloseDB(db *gorm.DB) {
 	//db.DBは２変数返却する.
 	//func (*gorm.DB).DB() (*sql.DB, error)としてポインター変数とerrorを出力するがerrorは使用しないためアンダーバーにて無効化
 	sqlDB, _ := db.DB()
